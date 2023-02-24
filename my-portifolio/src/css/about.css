@@ -1,0 +1,25 @@
+.about {
+  border: 1px solid black;
+  border-radius: 15px;
+  margin-top: 10px;
+  display:flex;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+
+.about-text {
+  color: blue;
+  max-width: 500px;
+  display: flex;
+  font-size: 20px
+}
+
+.text-container {
+  border:black;
+}
+
+.profile-pic{
+  width: 300px;
+  border-radius: 100%;
+
+}
