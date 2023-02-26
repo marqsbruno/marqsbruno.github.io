@@ -2,6 +2,7 @@ import React from "react";
 import '../css/about.css';
 import profile from '../imagens/profile-pic.jpg';
 
+
 export default function About() {
   return (
     <div className="about">

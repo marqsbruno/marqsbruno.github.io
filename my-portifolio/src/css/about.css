@@ -1,17 +1,17 @@
 .about {
-  border: 1px solid black;
   border-radius: 15px;
   margin-top: 10px;
   display:flex;
-  justify-content: space-evenly;
+  position:relative;
   padding: 20px;
 }
 
 .about-text {
-  color: blue;
+  color: #776e61;
   max-width: 500px;
   display: flex;
-  font-size: 20px
+  font-size: 20px;
+  font-weight: 500;
 }
 
 .text-container {
@@ -19,7 +19,9 @@
 }
 
 .profile-pic{
-  width: 300px;
-  border-radius: 100%;
-
+  max-height: 300px;
+  border-radius: 50%;
+  padding: 5px;
+  border: 3px dotted #191970;
+  
 }
