@@ -1,27 +1,34 @@
-.about {
-  border-radius: 15px;
-  margin-top: 10px;
+.about-container {
+  grid-column: 1 4;
   display:flex;
-  position:relative;
-  padding: 20px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 5vh;
+}
+
+.text-container {
+  flex-basis: 65%;
 }
 
 .about-text {
   color: #776e61;
-  max-width: 500px;
-  display: flex;
   font-size: 20px;
   font-weight: 500;
 }
 
-.text-container {
-  border:black;
+.img-container{
+  flex-basis: 30%;
+  text-align: center;
 }
 
+
 .profile-pic{
-  max-height: 300px;
+  min-width: 150px;
+  width: 100%;
+  max-width: 350px;
+  height: auto;
   border-radius: 50%;
   padding: 5px;
   border: 3px dotted #191970;
-  
+
 }

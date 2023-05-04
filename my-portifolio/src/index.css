@@ -2,6 +2,7 @@ body {
   border: 0;
   margin: 50px;
   background-color: #ffebcd;
+  justify-content: center;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -10,6 +11,8 @@ body {
 }
 .App {
   padding: 15px;
+  display:grid;
+  grid-template-rows: 7vh 7vh 50vh 7vh
 }
 
 code {
